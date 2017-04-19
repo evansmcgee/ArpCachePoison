@@ -7,7 +7,7 @@ print '#######################################################################'
 print '#                           WARNING                                   #'
 print '#        WE ALL KNOW THIS SCRIPT IS FOR EDUCATIONAL PURPOSES          #'
 print '#                    SO DONT BE A FOOL                                #'
-print '#                    PLY BY THE RULES                                 #'
+print '#                    PLAY BY THE RULES                                #'
 print '#######################################################################'
 print ''
 
