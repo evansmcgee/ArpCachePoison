@@ -20,11 +20,11 @@ conf.verb = 0
 
 def ipv4_forward_enable():
     print 'Enabling IP forwarding'
-    os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
+    os.system("sysctl -w net.ipv4.ip_forward=1")
 
 def ipv4_forward_disable():
     print 'Disabling IP forwarding'
-    os.system("echo 0 > /proc/sys/net/ipv4/ip_forward")
+    os.system("sysctl -w net.ipv4.ip_forward=0")
 
 def restore_target(gateway_ip, gateway_mac, target_ip, target_mac):
     print ("Restoring ARP targets")
